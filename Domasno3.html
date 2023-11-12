@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra pogodi go zborot</title>
+    <link rel="stylesheet" href="Domasno3.css">
+</head>
+<body>
+    <h1>Igra pogodi go zborot</h1>
+    
+    <div id="game-container">
+        <p id="attempts">Preostanati obidi: 5</p>
+        <p id="current-word"></p>
+        <input type="text" id="guess-input" maxlength="8">
+        <button onclick="checkGuess()">Pogodi go zborot</button>
+    </div>
+
+    <div id="result-popup">
+        <div id="popup-content">
+            <p id="popup-message"></p>
+            <button onclick="resetGame()">Igraj povtorno</button>
+        </div>
+    </div>
+
+    <script src="Domasno3.js"></script>
+</body>
+</html>
